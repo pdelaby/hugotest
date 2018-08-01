@@ -1,0 +1,16 @@
+baseURL = "http://test"
+languageCode = "fr-fr"
+title = "Hugo Demo"
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+
+[params]
+  editURL = "http://test"
+  description = "Demo - description"
+  author = "demo-author"
+  #showVisitedLinks = true
+  themeVariant = "blue"
+
+# For search functionnality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
